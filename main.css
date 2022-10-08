@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Utilities section starts here */
+.btn{
+    border: 2px solid transparent;
+    background: var(--dark-main-color);
+    color: var(--white-color);
+    padding: 6px 15px 6px 20px;
+}
+.btn:hover {
+    background: var(--main-color);
+    color: var(--black-color);
+}
+/* Utilities section ends here */
+/* header section starts here */
+header {
+    text-align: center;
+}
+header h2{
+    
+    padding-top: 15px; ;
+}
+header h4 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 23px;
+}
+.headerdiv{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    width: fit-content;
+    padding: 0 5px;
+    margin: 0 auto 50px auto;
+}
+.sub {
+    background-color: var(--white-color);
+    border: 4px solid var(--main-color);
+    border-radius: 10px;
+    width: 50%;
+    padding: 8px 10px;
+    
+
+}
+.paidlin{
+    width: 50%;
+    padding: 8px 10px;
+    
+}
+/* header section ends here */
+/* main section starts here */
+.main-div {
+    border: 2px solid var(--black-color);
+    border-radius: 15px;
+    padding: 50px 25px;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-firstmain {
+  width: 250px;
+  height: 100%;
+  padding-left: 20px ;
+  border-left: 3px solid transparent;   
+}
+.sub-firstmain p {
+    line-height: 1.7em;
+    font-size: 16px;
+}
+.sub-firstmain .angle-icon1 {
+    margin-top: 8px;
+    padding-right: 5px;
+}
+.sub-firstmain .btn {
+    margin-top:60px ;
+}
+.sub-main {
+    width: 250px;
+    height: 100%;
+    padding-left: 20px;
+    border-left: 1px solid var(--dark-main-color);
+}
+.sub-main p {
+    line-height: 1.7em;
+    font-size: 16px;
+}
+.sub-main2 {
+    width: 250px;
+    height: 100%;
+    padding-left:20px;
+    border-left:  1px solid var(--black-color) ;  
+}
+.sub-main2 p {
+    line-height: 1.7em;
+    font-size: 16px;
+}
+.submain-main h4 {
+   margin: 15px 0;
+   font-size: 18px;
+   font-weight: bolder;
+   color: var(--black-color);
+
+}
+.submain-main h6 {
+    font-weight: bolder;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.submain-main p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+.submain-main span {
+    font-size: 40px;
+}
+.submain-main button {
+    margin: 20px 0;
+}
+.dollar-icon {
+    font-size: 10px;
+}
+.angle-icon {
+    padding-right: 5px;
+}
+.angle-p1 {
+    margin-top: 28px;
+}
+
+
+/* /* main section  endshere * */

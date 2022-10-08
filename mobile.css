@@ -1,0 +1,28 @@
+@media screen and (max-width: 1022px) {
+    .main-div {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-firstmain {
+        margin: 0 auto;
+        padding-left: 0;
+
+    }
+    .sub-main {
+        margin: 0 auto;
+        border: none;
+        padding-left: 0;
+    }
+    .sub-main2 {
+        margin: 0 auto;
+        border: none;
+        padding-left: 0;
+    }
+    .submain-main h4 {
+        margin: 40px 0 25px 0;
+    }
+
+
+    
+}
